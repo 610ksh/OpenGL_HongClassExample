@@ -202,7 +202,7 @@ namespace jm
 
 	void drawWiredCircle(const RGB & color, const float & radius)
 	{
-		drawWiredRegularConvexPolygon(color, radius, 0.0f, 30);
+		drawWiredRegularConvexPolygon(color, radius, 0.0f, 300); // 원래 30이었는데, 폴리곤 10배함
 	}
 
 	void drawWiredPentagon(const RGB & color, const float & radius)

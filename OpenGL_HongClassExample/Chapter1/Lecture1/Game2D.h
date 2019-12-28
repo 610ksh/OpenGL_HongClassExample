@@ -39,7 +39,7 @@ namespace jm
 		// control options
 		std::map<int, bool> key_status;  // key_id, is_pressed
 		std::map<int, bool> mbtn_status; // mouse_button_id, is_pressed
-		bool draw_grid = false;
+		bool draw_grid = true;
 
 	public:
 		Game2D()
@@ -65,14 +65,20 @@ namespace jm
 
 		vec2 getCursorPos(const bool& screen_coordinates = true);
 
-		float getTimeStep(); // 한 프레임당 시간을 측정
+		float getTimeStep(); // 한 프레임당 시간을 측정. 현재는 고정값 60분의 1을 return해주고 있다. 실제로는 각 프레임별 시간을 기록하게 해야함. delta time
 
 		void drawGrid();
+
+		/*
+			중요한 함수는 run과 update
+			run은 start와 같고, update는 update와 같은듯
+		*/
+
 
 		void run();
 
 		// 오버라이딩해서 사용하기 위해 virutal로 선언함. 우리만의 update를 만들기 위해
-		virtual void update() 
+		virtual void update() // 왜 virtual인지 이해하는게 중요함.
 		{
 			// draw : 그리거나
 			// play sould : 사운드
