@@ -28,17 +28,17 @@ namespace jm
 				endTransformation();
 				
 				//beginTransformation();
-				rotate(time*45.0f);
-				translate(0.5f, 0.0f);
-				drawFilledStar(Colors::blue, 0.2f, 0.13f);
+				rotate(time*90.0f);
+				translate(0.55f, 0.0f);
+				drawFilledStar(Colors::blue, 0.15f, 0.08f);
 				//drawFilledCircle(Colors::blue, 0.1f);		// Earth
 				//endTransformation();
 
 				// 아래의 translate가 되기 전의 점이 기준점이됨. 위의 (0.5f, 0.0f)
 
 				rotate(time*180.0f);
-				translate(0.2f, 0.0f);
-				drawFilledStar(Colors::green, 0.2f, 0.13f);
+				translate(0.25f, 0.0f);
+				drawFilledStar(Colors::red, 0.10f, 0.05f);
 				//drawFilledCircle(Colors::green, 0.05f);	// Moon
 			}
 			endTransformation();
