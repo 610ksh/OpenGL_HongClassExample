@@ -31,8 +31,8 @@
 ![Screen Coordinates](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/ScreenCoordinates.gif)
 
 ## Lecture5
-### 1.FMOD 라이브러리
-![FMOD](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/FMOD.PNG)
+### 1. FMOD 라이브러리
+![FMOD](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/FMOD.png)
 
 # Chapter2
 
