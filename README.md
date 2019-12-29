@@ -1,12 +1,13 @@
 # OpenGL_HongClassExample
 홍정모의 게임 만들기 연습 문제 패키지 강좌 실습 내용입니다.
+- https://github.com/jmhong-simulation/GameDevPracticePackage
 
 # Chapter1. Hello OpenGL
-## Lecture1
+## Lecture1. 시작하기
 ### 1. Rotating Star Example
 ![](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/RotatingStarExample.gif)
 
-## Lecture2
+## Lecture2. 이동, 회전, 스케일링, 애니메이션
 ### 1. Composite Transformation Animation
 ![Composite Transformation Animation](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/CompositeTransformation.gif)
 
@@ -16,27 +17,43 @@
 ### 3. Face Example
 ![Face Example](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/FaceExample.PNG)
 
-## Lecture3
+## Lecture3. 키보드 입력
 ### 1. Tank Example
 ![Tank Example](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/TankExample.gif)
 
 ### 2. Walking Person
 ![Walking Person](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/WalkingPerson.gif)
 
-## Lecture4
+## Lecture4. 마우스 입력
 ### 1. Window Coordinates
 ![Window Coordinates](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/WindowCoordinates.gif)
 
 ### 2. Screen Coordinates
 ![Screen Coordinates](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/ScreenCoordinates.gif)
 
-## Lecture5
+## Lecture5. FMOD 사운드
 ### 1. FMOD 라이브러리
 ![FMOD](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/FMOD.png)
 
-# Chapter2
+---
+# Chapter2. 객체지향
 
-## Lecture1
-###
+## Lecture1. 클래스와 캡슐화
+### 1.
+
+## Lecture2. 클래스와 캡슐화
+### 1.
+
+## Lecture3. 클래스와 캡슐화
+### 1.
+
+## Lecture4. 클래스와 캡슐화
+### 1.
+
+## Lecture5. 클래스와 캡슐화
+### 1.
+
+## Lecture6. 클래스와 캡슐화
+### 1.
 
 ![]()
