@@ -1,10 +1,11 @@
 # OpenGL_HongClassExample
 홍정모의 게임 만들기 연습 문제 패키지 강좌 실습 내용입니다.
 
-
 # Chapter1
-
 ## Lecture1
+### Hello OpenGL
+
+## Lecture2
 ### 1. Composite Transformation Animation
 
 ![Composite Transformation Animation](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/CompositeTransformation.gif)
@@ -17,13 +18,23 @@
 
 ![Face Example](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/FaceExample.PNG)
 
-## Lecture2
+## Lecture3
+### 1. Tank Example
 
-### xxx
+![Tank Example](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/TankExample.PNG)
+
+### 2. Walking Person
+
+![Walking Person](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/WalkingPerson.PNG)
+
+## Lecture4
+### 1.
+
+## Lecture5
+### 1.
 
 
 # Chapter2
 
 ## Lecture1
-
-### 1.Composite Transformation Animation
+###
