@@ -189,23 +189,26 @@ namespace jm
 	vec2 Game2D::getCursorPos(const bool& screen_coordinates)
 	{
 		double x_pos, y_pos;
-		glfwGetCursorPos(glfw_window, &x_pos, &y_pos);
+		glfwGetCursorPos(glfw_window, &x_pos, &y_pos); // 현재 화면에서 커서위치 가져옴
 		// Note that (0, 0) is left up corner. 
 		// This is different from our screen coordinates.
-		// 0 <= x <= width - 1
+		// 0 <= x <= width - 1 (=999)
 		// height - 1 >= y >= 0 
 
 		if (screen_coordinates) // assumes width >= height
 		{
-			// upside down y direction
+			// upside down y direction (위아래를 뒤집어주기)
 			y_pos = height - y_pos - 1; // 0 <= y <= height - 1
+			
+			// rescale and translate zero to center 
+			y_pos = y_pos / (height - 1); //  0.0 <= y <= 1.0 // 0~1로 만들어주기
+			y_pos = y_pos * 2.0;		  //  0.0 <= y <= 2.0 // 0~2로 만들어주기
+			y_pos = y_pos - 1.0;		  // -1.0 <= y <= 1.0 // -1~1로 만들어주기
 
-			// rescale and translate zero to center
-			y_pos = y_pos / (height - 1); //  0.0 <= y <= 1.0
-			y_pos = y_pos * 2.0;		  //  0.0 <= y <= 2.0
-			y_pos = y_pos - 1.0;		  // -1.0 <= y <= 1.0
-
+			//assumes width >= height // 상대 비율을 맞춰주려고.
+			// 안곱해주면 화면 비율이 스크린 비율과 맞지 않음.
 			x_pos = (x_pos / (width - 1) * 2.0 - 1.0) * width / height;
+			//width / height
 
 			return vec2(static_cast<float>(x_pos), static_cast<float>(y_pos));
 		}
