@@ -77,6 +77,7 @@ namespace jm
 
 		void run();
 
+		// update함수는 위의 run 함수에서 호출이 된다.
 		// 오버라이딩해서 사용하기 위해 virutal로 선언함. 우리만의 update를 만들기 위해
 		virtual void update() // 왜 virtual인지 이해하는게 중요함.
 		{

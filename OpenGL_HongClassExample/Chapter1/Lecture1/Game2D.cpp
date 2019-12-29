@@ -220,6 +220,7 @@ namespace jm
 		if (glfw_window == nullptr)
 			init("This is my digital canvas!", 1280, 960, false); // initialize with default setting
 
+		// 실제 게임 루프는 여기서 일어남! 무한루프임
 		while (!glfwWindowShouldClose(glfw_window))// main loop
 		{
 			if (isKeyPressed(GLFW_KEY_ESCAPE)) {
@@ -239,6 +240,7 @@ namespace jm
 
 			drawGrid();
 
+			// ★★ 제일 중요한 함수! 여기서 업데이트가 호출됨
 			update();	// the major worker function
 
 			glPopMatrix();

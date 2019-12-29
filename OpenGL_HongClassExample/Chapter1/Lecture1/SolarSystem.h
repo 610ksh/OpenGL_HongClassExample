@@ -14,9 +14,9 @@ namespace jm
 	class SolarSystem : public Game2D
 	{
 		float time = 0.0f;
-		/*vec2 a(0.0f, 0.0f);
+		vec2 a = vec2(0.0f, 0.0f);
 		vec2 b = Vector2<float>(0.5f, 0);
-		vec2 c = Vector2<float>(0.7f, 0);*/
+		vec2 c = Vector2<float>(0.7f, 0);
 	public:
 		void update() override
 		{
