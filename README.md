@@ -21,11 +21,11 @@
 ## Lecture3
 ### 1. Tank Example
 
-![Tank Example](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/TankExample.PNG)
+![Tank Example](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/TankExample.gif)
 
 ### 2. Walking Person
 
-![Walking Person](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/WalkingPerson.PNG)
+![Walking Person](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/WalkingPerson.gif)
 
 ## Lecture4
 ### 1.
