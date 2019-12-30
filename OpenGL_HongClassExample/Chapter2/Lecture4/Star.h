@@ -26,7 +26,6 @@ namespace jm
 
 		void drawGeometry() const override
 		{
-			//drawFilledBox(Colors::blue, this->width, this->height);
 			drawFilledStar(GeometricObject::color, outer_radius, inner_radius);
 		}
 	};

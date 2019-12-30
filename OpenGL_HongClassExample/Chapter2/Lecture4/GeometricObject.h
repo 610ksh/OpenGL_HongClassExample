@@ -10,8 +10,8 @@ namespace jm
 		vec2 pos;
 		RGB  color;
 
-		//virtual ~GeometricObject()
-		//{}
+		virtual ~GeometricObject()
+		{}
 
 		void init(const RGB & _color, const vec2 & _pos)
 		{
@@ -30,5 +30,12 @@ namespace jm
 			}
 			endTransformation();
 		}
+
+		// return 될때 자동으로 캐스팅되어서 GeometricObject로 변환되어 반환됨
+		static GeometricObject* makeTriangle(const RGB & _color, const vec2 & _pos, const float & _size);
+		static GeometricObject* makeCircle(const RGB & _color, const vec2 & _pos, const float & _size);
+		static GeometricObject* makeBox(const RGB & _color, const vec2 & _pos, const float & _width, const float & _height);
+
+		static GeometricObject * makeStar(const RGB & _color, const vec2 & _pos, const float & _os, const float & _is);
 	};
 }

@@ -3,6 +3,7 @@
 #include "Triangle.h"
 #include "Circle.h"
 #include "Box.h"
+// 새로운 내용
 #include "Star.h"
 
 namespace jm
