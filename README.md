@@ -51,14 +51,19 @@
 ![House](/OpenGL_HongClassExample/Chapter2/Screenshots/Polymorphism.png)
 
 ## Lecture4. Factory pattern
-### 1.Factory Pattern
+### 1. Factory Pattern
 ![Factory Pattern](/OpenGL_HongClassExample/Chapter2/Screenshots/FactoryPattern.PNG)
 
 ## Lecture5. Command pattern
-### 1.Command pattern
+### 1. Command pattern
 ![Command pattern](/OpenGL_HongClassExample/Chapter2/Screenshots/CommandPattern.gif)
 
 ## Lecture6. Singleton parttern
-### 1.
+### 1. 
 
+---
+# Chapter3. 
+
+## Lecture1. 
+### 1. House
 ![]()
