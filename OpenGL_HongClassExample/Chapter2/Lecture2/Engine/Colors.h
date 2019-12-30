@@ -18,5 +18,11 @@ namespace jm
 		const RGB white(255, 255, 255);
 		const RGB gold(255, 223, 0);
 		const RGB silver(192, 192, 192);
+
+		const RGB colorArray[10] = {
+			red, green, blue, skyblue, gray, yellow, olive, black, gold, silver
+		};
+
+		const int colorSize = 10;
 	}
 }
