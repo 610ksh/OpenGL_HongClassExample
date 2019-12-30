@@ -39,7 +39,8 @@
 # Chapter2. 객체지향
 
 ## Lecture1. 클래스와 캡슐화
-### 1.
+### 1. House
+![House](/OpenGL_HongClassExample/Chapter2/Lecture1/Screenshots/house.gif)
 
 ## Lecture2. 클래스와 캡슐화
 ### 1.
