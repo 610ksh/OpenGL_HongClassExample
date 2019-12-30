@@ -19,4 +19,23 @@ namespace jm
 		const RGB gold(255, 223, 0);
 		const RGB silver(192, 192, 192);
 	}
+
+	namespace ColorArray
+	{
+		const int color_length = 10;
+		
+		const RGB colors[color_length] = {
+			Colors::red,
+			Colors::green,
+			Colors::blue,
+			Colors::skyblue,
+			Colors::gray,
+			Colors::yellow,
+			Colors::olive,
+			Colors::black,
+			Colors::gold,
+			Colors::silver
+		};
+	}
+
 }
