@@ -24,6 +24,8 @@ namespace jm
 		float width;
 		float height;
 
+		//////////////// init 내용이 전부 달라질수 있어서 각각 따로 설계
+
 		void initTriangle(const RGB & _color, const vec2 & _pos,
 						  const float & _size)
 		{
@@ -49,6 +51,8 @@ namespace jm
 			width = _width;
 			height = _height;
 		}
+
+		////////////////////// 그리는 방식도 다르게
 
 		void draw()
 		{

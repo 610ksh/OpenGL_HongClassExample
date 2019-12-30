@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Game2D.h"
 
 namespace jm
@@ -9,6 +8,12 @@ namespace jm
 	public:
 		vec2 pos;
 		RGB  color;
+
+		// unique_ptr에서는 가상소멸자를 사용하는게 안전
+		virtual ~GeometricObject()
+		{
+
+		}
 
 		void init(const RGB & _color, const vec2 & _pos)
 		{
