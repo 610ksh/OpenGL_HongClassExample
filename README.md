@@ -40,14 +40,15 @@
 
 ## Lecture1. 클래스와 캡슐화
 ### 1. House
-![House](/OpenGL_HongClassExample/Chapter2/Lecture1/Screenshots/house.gif)
+![House](/OpenGL_HongClassExample/Chapter2/Screenshots/house.gif)
 
 ## Lecture2. 상속
 ### 1. Geometric Object
-![Geometric Object](/OpenGL_HongClassExample/Chapter2/Lecture2/Screenshots/GeometricObject.gif)
+![Geometric Object](/OpenGL_HongClassExample/Chapter2/Screenshots/GeometricObject.gif)
 
 ## Lecture3. 다형성
-### 1.
+### 1. Polymorphism
+![House](/OpenGL_HongClassExample/Chapter2/Screenshots/Polymorphism.png)
 
 ## Lecture4. Factory pattern
 ### 1.
