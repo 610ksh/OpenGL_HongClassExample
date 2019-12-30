@@ -56,7 +56,7 @@
 
 ## Lecture5. Command pattern
 ### 1.Command pattern
-![Command pattern](/OpenGL_HongClassExample/Chapter2/Screenshots/Command Pattern.gif)
+![Command pattern](/OpenGL_HongClassExample/Chapter2/Screenshots/CommandPattern.gif)
 
 ## Lecture6. Singleton parttern
 ### 1.
