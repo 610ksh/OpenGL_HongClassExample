@@ -42,19 +42,20 @@
 ### 1. House
 ![House](/OpenGL_HongClassExample/Chapter2/Lecture1/Screenshots/house.gif)
 
-## Lecture2. 클래스와 캡슐화
+## Lecture2. 상속
+### 1. Geometric Object
+![Geometric Object](/OpenGL_HongClassExample/Chapter2/Lecture2/Screenshots/GeometricObject.gif)
+
+## Lecture3. 다형성
 ### 1.
 
-## Lecture3. 클래스와 캡슐화
+## Lecture4. Factory pattern
 ### 1.
 
-## Lecture4. 클래스와 캡슐화
+## Lecture5. Command pattern
 ### 1.
 
-## Lecture5. 클래스와 캡슐화
-### 1.
-
-## Lecture6. 클래스와 캡슐화
+## Lecture6. Singleton parttern
 ### 1.
 
 ![]()
