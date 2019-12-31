@@ -28,11 +28,13 @@ namespace jm
 		{
 		}
 
+		// 내적
 		T getDotProduct(const Vector2<T>& v) const
 		{
 			return x * v.x + y * v.y;
 		}
 
+		// 절대값 구하는 함수
 		T getMagnitude()
 		{
 			return std::sqrt(x * x + y * y);

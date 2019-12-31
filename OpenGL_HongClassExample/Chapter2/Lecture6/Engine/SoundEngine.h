@@ -5,6 +5,11 @@
 #include <map>
 #include <string>
 
+/* 
+	실무에서 사용하기에는 무리가 있는 코드다.
+	예제를 위해 공부하는거라서 효율적인 코드는 아니다.
+*/
+
 namespace jm
 {
 	//Note: This example implementation of sound engine is inefficient.
@@ -13,8 +18,9 @@ namespace jm
 	private:
 		FMOD::System  *system = nullptr;
 		//FMOD::Channel *channel = nullptr;
-		std::map<std::string, FMOD::Sound*> sound_map;
-		std::map<FMOD::Sound*, FMOD::Channel*> channel_map;// not efficient
+		std::map<std::string, FMOD::Sound*> sound_map; // 이름을 입력해서 사운드 포인터를 얻어옴
+		std::map<FMOD::Sound*, FMOD::Channel*> channel_map;// not efficient // 사운드 포인터를 입력하면 해당 채널 포인터를 받아옴
+		// 전체조건, 한 채널에 한 사운드만 재생되는 로직이라 비효율적이다.
 		
 		FMOD_RESULT   result;
 		unsigned int  version;
@@ -69,6 +75,7 @@ namespace jm
 
 		void playSound(const std::string & sound_name)
 		{
+			// 존재여부를 해당하는 key값에 해당하는 value를 이용해서 처리함
 			if (sound_map.count(sound_name) <= 0) {
 				std::cout << sound_name << " isn't initialized." << std::endl;
 				exit(-1);

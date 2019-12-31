@@ -20,11 +20,14 @@ namespace jm
 		unsigned int  version;
 		void          *extradriverdata = nullptr;
 
+		// 내부에 static 변수가 있음
 		static SoundEngine_Singleton * instance;
 
+		//static 함수로만 접근이 가능함!
 	public:
 		static SoundEngine_Singleton * getInstance();
 
+		// 생성자가 private이면 외부에서 인스턴스를 만들수가 없음.
 	private:
 		SoundEngine_Singleton()
 		{

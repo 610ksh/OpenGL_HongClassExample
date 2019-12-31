@@ -3,8 +3,8 @@
 #include "Game2D.h"
 #include "MyBullet.h"
 #include "MyTank.h"
-#include "SoundEngine.h"
-//#include "SoundEngine_Singleton.h"
+//#include "SoundEngine.h"
+#include "SoundEngine_Singleton.h"
 
 namespace jm
 {
@@ -17,13 +17,14 @@ namespace jm
 		//TODO: allow multiple bullets
 		//TODO: delete bullets when they go out of the screen
 
-		SoundEngine sound_engine;
+		//SoundEngine sound_engine; // 생성자가 private이면 컴파일 에러
 
 	public:
 		TankExample()
 			: Game2D("This is my digital canvas!", 1024, 768, false, 2)
 		{
-			//auto & sound_engine = *SoundEngine_Singleton::getInstance();
+			// singleton을 사용해야하는 곳에서 getInstance()를 통해 받아옴
+			auto & sound_engine = *SoundEngine_Singleton::getInstance();
 
 			sound_engine.createSound("drumloop.wav", "background_music", true);
 			sound_engine.createSound("truck_idle_off_02.wav", "tank_move", true);
@@ -40,7 +41,8 @@ namespace jm
 
 		void update() override
 		{
-			//auto & sound_engine = *SoundEngine_Singleton::getInstance();
+			// singleton을 사용해야하는 곳에서 getInstance()를 통해 받아옴
+			auto & sound_engine = *SoundEngine_Singleton::getInstance(); // 레퍼런스로 받을때는 포인터로 받아야한다 (*)
 
 			// move tank
 			bool is_moving = false;

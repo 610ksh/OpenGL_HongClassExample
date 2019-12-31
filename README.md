@@ -62,8 +62,30 @@
 ### 1. 
 
 ---
-# Chapter3. 
+# Chapter3. 물리엔진 기초
 
-## Lecture1. 
+## Lecture1. 공 튕기기
+### 1. RigidCircle
+![RigidCircle](/OpenGL_HongClassExample/Chapter3/Screenshots/RigidCircle.gif)
+
+## Lecture2. 두 공의 충돌
+### 1. Collision
+![Collision](/OpenGL_HongClassExample/Chapter3/Screenshots/Collision.gif)
+
+## Lecture3. 용수철
+### 1. NonSpring System
+![NonSpring System](/OpenGL_HongClassExample/Chapter3/Screenshots/NonSpringSystem.gif)
+
+### 2. Spring System
+![Spring System](/OpenGL_HongClassExample/Chapter3/Screenshots/SpringSystem.gif)
+
+## Lecture4. 파티클 시스템
 ### 1. House
+![]()
+
+---
+# Chapter4. 기타
+
+## Lecture1. 이미지 불러오기
+### 1. 
 ![]()
