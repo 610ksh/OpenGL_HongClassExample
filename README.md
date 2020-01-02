@@ -7,6 +7,13 @@
 - [x] 복습중
 - [ ] 물리엔진쪽 물리 관련 이론과 코드 적용 추가 공부
 
+## :heavy_check_mark: Languages & Library
+- OpenGL(glew,glfw3,opengl)
+- FMOD
+- stb_image
+- Cpp
+- C
+
 # 🎨Chapter1. Hello OpenGL
 ## Lecture1. 시작하기
 ### 1. Rotating Star Example
