@@ -96,7 +96,3 @@
 <<<<<<< HEAD
 ### 1. Image library (stb_image)
 ![Image](/OpenGL_HongClassExample/Chapter4/Screenshots/Image.gif)
-=======
-### 1. 
-![]()
->>>>>>> 53d007b38a0c76a32bdc23050629e370ae8ed5a5
