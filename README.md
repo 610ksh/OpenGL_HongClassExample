@@ -93,6 +93,5 @@
 # 🎨Chapter4. 기타
 
 ## Lecture1. 이미지 불러오기
-<<<<<<< HEAD
 ### 1. Image library (stb_image)
 ![Image](/OpenGL_HongClassExample/Chapter4/Screenshots/Image.gif)
