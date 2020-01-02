@@ -50,16 +50,18 @@
 ### 1. Polymorphism
 ![House](/OpenGL_HongClassExample/Chapter2/Screenshots/Polymorphism.png)
 
-## Lecture4. Factory pattern
+## Lecture4. Factory Pattern
 ### 1. Factory Pattern
 ![Factory Pattern](/OpenGL_HongClassExample/Chapter2/Screenshots/FactoryPattern.PNG)
 
-## Lecture5. Command pattern
-### 1. Command pattern
+## Lecture5. Command Pattern
+### 1. Command Pattern
 ![Command pattern](/OpenGL_HongClassExample/Chapter2/Screenshots/CommandPattern.gif)
 
-## Lecture6. Singleton parttern
-### 1. 
+## Lecture6. Singleton Pattern
+### 1. Singleton Pattern
+![Singleton](/OpenGL_HongClassExample/Chapter2/Screenshots/Singleton.png)
+![Singleton2](/OpenGL_HongClassExample/Chapter2/Screenshots/Singleton2.png)
 
 ---
 # Chapter3. 물리엔진 기초
@@ -80,12 +82,12 @@
 ![Spring System](/OpenGL_HongClassExample/Chapter3/Screenshots/SpringSystem.gif)
 
 ## Lecture4. 파티클 시스템
-### 1. House
-![]()
+### 1. Particle System
+![ParticleSystem](/OpenGL_HongClassExample/Chapter3/Screenshots/ParticleSystem.gif)
 
 ---
 # Chapter4. 기타
 
 ## Lecture1. 이미지 불러오기
-### 1. 
-![]()
+### 1. Image library (stb_image)
+![Image](/OpenGL_HongClassExample/Chapter4/Screenshots/Image.gif)
