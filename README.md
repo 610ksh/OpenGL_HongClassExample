@@ -3,8 +3,9 @@
 - https://github.com/jmhong-simulation/GameDevPracticePackage
 
 ## ☑ TODO
-- [x] TEST
-- [ ] TEST2
+- [x] 2020.01.02 1회독
+- [x] 복습중
+- [ ] 물리엔진쪽 물리 관련 이론과 코드 적용 추가 공부
 
 # 🎨Chapter1. Hello OpenGL
 ## Lecture1. 시작하기
