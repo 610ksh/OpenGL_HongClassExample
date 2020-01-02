@@ -1,8 +1,12 @@
-# OpenGL_HongClassExample
+# 🚀OpenGL_HongClassExample
 홍정모의 게임 만들기 연습 문제 패키지 강좌 실습 내용입니다.
 - https://github.com/jmhong-simulation/GameDevPracticePackage
 
-# Chapter1. Hello OpenGL
+## ☑ TODO
+- [x] TEST
+- [ ] TEST2
+
+# 🎨Chapter1. Hello OpenGL
 ## Lecture1. 시작하기
 ### 1. Rotating Star Example
 ![](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/RotatingStarExample.gif)
@@ -36,7 +40,7 @@
 ![FMOD](OpenGL_HongClassExample/Chapter1/Lecture1/Screenshots/FMOD.png)
 
 ---
-# Chapter2. 객체지향
+# 🎨Chapter2. 객체지향
 
 ## Lecture1. 클래스와 캡슐화
 ### 1. House
@@ -64,7 +68,7 @@
 ![Singleton2](/OpenGL_HongClassExample/Chapter2/Screenshots/Singleton2.png)
 
 ---
-# Chapter3. 물리엔진 기초
+# 🎨Chapter3. 물리엔진 기초
 
 ## Lecture1. 공 튕기기
 ### 1. RigidCircle
@@ -86,8 +90,13 @@
 ![ParticleSystem](/OpenGL_HongClassExample/Chapter3/Screenshots/ParticleSystem.gif)
 
 ---
-# Chapter4. 기타
+# 🎨Chapter4. 기타
 
 ## Lecture1. 이미지 불러오기
+<<<<<<< HEAD
 ### 1. Image library (stb_image)
 ![Image](/OpenGL_HongClassExample/Chapter4/Screenshots/Image.gif)
+=======
+### 1. 
+![]()
+>>>>>>> 53d007b38a0c76a32bdc23050629e370ae8ed5a5
