@@ -1,4 +1,4 @@
-# 🚀OpenGL_HongClassExample
+# 🚀OpenGL_HongGameProject
 홍정모의 게임 만들기 연습 문제 패키지 강좌 실습 내용입니다.
 - https://github.com/jmhong-simulation/GameDevPracticePackage
 
