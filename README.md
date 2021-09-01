@@ -1,6 +1,5 @@
 # 🚀OpenGL_HongGameProject
-홍정모의 게임 만들기 연습 문제 패키지 강좌 실습 내용입니다.
-- https://github.com/jmhong-simulation/GameDevPracticePackage
+
 
 ## ☑ TODO
 - [x] 2020.01.02 1회독
@@ -103,3 +102,7 @@
 ## Lecture1. 이미지 불러오기
 ### 1. Image library (stb_image)
 ![Image](/OpenGL_HongClassExample/Chapter4/Screenshots/Image.gif)
+
+---
+
+- 참고한 github : https://github.com/jmhong-simulation/GameDevPracticePackage
